@@ -1,0 +1,110 @@
+* {
+  font-family: "Roboto";
+}
+
+.navbar,
+#consoles,
+#contato {
+  background-color: #0f0661;
+}
+
+#consoles h2,
+#consoles h3,
+#consoles p,
+#contato h2,
+#contato label,
+#contato button,
+#contato p,
+#contato h3,
+.fs-5 a,
+#contato li {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+#contato ul {
+  list-style: none;
+}
+
+form button {
+  background-color: #000;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #0f0661;
+}
+
+.text-colored,
+.text-colored:hover {
+  color: #0f0661;
+}
+
+.col-md-3 img {
+  border: 1px solid black;
+  height: 270px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.navbar h1,
+.navbar h1:hover,
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #988dfd;
+}
+
+#sobre .carousel-item img {
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#consoles img {
+  height: 533px;
+  object-fit: cover;
+  object-position: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat Alternates";
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+@media(max-width: 767px) {
+  #sobre .carousel-item img {
+    height: 280px;
+  }
+
+  #sobre .col-md-5 img,
+  #consoles img {
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .col-md-3 img {
+    height: 400px;
+  }
+  
+  aside {
+    margin-bottom: 20px;
+  }
+
+
+  header nav {
+    margin-top: 20px;
+  }
+}
